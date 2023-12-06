@@ -1,0 +1,11 @@
+1.please install pwgen with : apt install pwgen -y
+2.please chek network interface with : ip link show
+3.please chek partition with : lsblk
+--------------------------------------------------------
+change interface in line 3 ( enp0s3 ) with your ubuntu network interface
+change partition name in line 22 ( vda ) with your partition name
+---------------------------------------------------------
+to run it by
+bash install.sh
+and to wait around 2-5 minutes, until restart of the your VPS.
+If after installation of the Microtik CHR you will receive and error on the loading stage, please reinstall the OS on your VPS to Ubuntu 22.04, and repeat all these steps from start.
